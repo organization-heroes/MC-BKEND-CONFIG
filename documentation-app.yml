@@ -1,0 +1,14 @@
+zuul:
+  prefix: /api
+  routes:
+    document-service-api: 
+      path: /document-service/**
+      serviceId: document-service
+    user-service-api: 
+      path: /user-service/**
+      serviceId: user-service
+swagger: 
+  config: 
+    refreshrate: 5000
+    
+swagger.enabled: true
