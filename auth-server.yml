@@ -1,1 +1,12 @@
-
+spring:
+  datasource.url: jdbc:h2:tcp://localhost:9091/file:C:/data/dm_db
+security:
+#  basic:
+#    enabled: false
+  user:
+    name: root
+    password: password
+  oauth2:
+    client:
+      client-id: acme
+      client-secret: secret
