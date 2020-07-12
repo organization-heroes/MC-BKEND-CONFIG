@@ -7,3 +7,8 @@ zuul:
     user-service-api: 
       path: /user-service/**
       serviceId: user-service
+swagger: 
+  config: 
+    refreshrate: 5000
+    
+swagger.enabled: true
