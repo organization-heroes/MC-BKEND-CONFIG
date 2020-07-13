@@ -4,6 +4,7 @@ spring:
     driverClassName: org.h2.Driver
     username: sa
     password: 
+    url: jdbc:h2:file:C:/data/dm_db;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
@@ -14,7 +15,6 @@ spring:
     show-sql: true
     properties.format_sql: true
     properties.hibernate.generate_statistics: false
-    url: jdbc:h2:file:C:/data/dm_db;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
   h2:
     console.path: /h2
 custom.h2.tcpport: 9091
