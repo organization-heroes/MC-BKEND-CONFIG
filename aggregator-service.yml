@@ -1,4 +1,3 @@
 spring:
   datasource.url: jdbc:h2:tcp://localhost:9091/file:C:/data/dm_db
   jpa.hibernate.ddl-auto: update
-user-service.ribbon.listOfServers: localhost:8763,localhost:8770
