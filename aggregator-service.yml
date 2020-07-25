@@ -1,1 +1,2 @@
-auth-center.ribbon.listOfServers: 127.0.0.1:8081
+auth-center.name: auth-center
+auth-center.url: 127.0.0.1:8081
