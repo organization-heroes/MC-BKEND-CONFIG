@@ -1,2 +1,6 @@
 auth-center.name: auth-center
 auth-center.url: 127.0.0.1:8081
+customer.username: customer
+customer.password: customer
+underwriter.username: loan
+underwriter.password: officer
